@@ -29,7 +29,7 @@ Project RTS implements a real-time pipeline for detecting and classifying traffi
 Libraries Already Developed/Utilized
 
 | Libraries | Description |
-| :---         |     ---: |
+| :---         | :---      |
 | CNN Model | Custom architecture trained for traffic sign classification |
 | Webcam | Captures live video frames for detection |
 | OpenCV | Handles video capture, image processing, and visualization |
