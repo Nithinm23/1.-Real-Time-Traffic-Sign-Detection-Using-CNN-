@@ -11,7 +11,7 @@ Project RTS implements a real-time pipeline for detecting and classifying traffi
 </p>
 
 # Table of Contents
-- [Demo](#Demo)
+- [Demo](#Demo-Photos)
 - [Components](#Components)
 - [Hardware](#Hardware)
 - [Code Base](#Code-Base)
