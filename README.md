@@ -7,7 +7,7 @@ Project RTS is an advanced real-time traffic sign detection and recognition syst
 
 # Abstract
 <p align="justify">
-Project RTS implements a real-time pipeline for detecting and classifying traffic signs using a custom Convolutional Neural Network (CNN) architecture. Trained on approximately 35,000 labeled images covering 42 classes, the system processes live video streams captured from a webcam, performing image preprocessing, prediction, and visualization in real time. It overlays recognized traffic signs and confidence scores directly onto the video feed, delivering an efficient solution suitable for deployment on standard computing hardware without GPU acceleration.
+Project RTS implements a real-time pipeline for detecting and classifying traffic signs using a custom Convolutional Neural Network (CNN) architecture. Trained on approximately 35,000 labeled images covering 43 classes, the system processes live video streams captured from a webcam, performing image preprocessing, prediction, and visualization in real time. It overlays recognized traffic signs and confidence scores directly onto the video feed, delivering an efficient solution suitable for deployment on standard computing hardware without GPU acceleration.
 </p>
 
 # Table of Contents
@@ -42,7 +42,7 @@ Libraries Already Developed/Utilized
 **Dataset Details:**
 
 - Total images: ~35,000
-- Number of classes: 42
+- Number of classes: 43
 - Classes:
     - 0: Speed limit (20km/h)
     - 1: Speed limit (30km/h)
@@ -115,7 +115,7 @@ System Block Diagram
 # Result
 Project RTS successfully demonstrates high-performance real-time detection of traffic signs:
 
-- Achieved ~90% classification accuracy on 42 Indian and German traffic sign classes.
+- Achieved ~90% classification accuracy on 43 Indian and German traffic sign classes.
 - Processes video at near real-time speeds (~30 FPS) on standard laptops without GPU acceleration.
 - Robust to varied lighting, angles, and occlusion due to comprehensive data augmentation during training.
 - Clear overlay of detected sign labels and confidence scores on live video, enabling seamless integration into ADAS systems.
