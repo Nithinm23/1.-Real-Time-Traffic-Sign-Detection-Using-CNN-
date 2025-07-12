@@ -7,7 +7,7 @@ Project RTS is an advanced real-time traffic sign detection and recognition syst
 
 # Abstract
 <p align="justify">
-Project RTS implements a real-time pipeline for detecting and classifying traffic signs using a custom Convolutional Neural Network (CNN) architecture. Trained on approximately 35,000 labeled images covering 43 classes, the system processes live video streams captured from a webcam, performing image preprocessing, prediction, and visualization in real time. It overlays recognized traffic signs and confidence scores directly onto the video feed, delivering an efficient solution suitable for deployment on standard computing hardware without GPU acceleration.
+Project RTS implements a real-time pipeline for detecting and classifying traffic signs using a custom Convolutional Neural Network (CNN) architecture. Trained on approximately 35,000 labeled images covering 42 classes, the system processes live video streams captured from a webcam, performing image preprocessing, prediction, and visualization in real time. It overlays recognized traffic signs and confidence scores directly onto the video feed, delivering an efficient solution suitable for deployment on standard computing hardware without GPU acceleration.
 </p>
 
 # Table of Contents
@@ -87,6 +87,11 @@ Libraries Already Developed/Utilized
     - 40: Roundabout mandatory
     - 41: End of no passing
     - 42: End of no passing by vehicles over 3.5 metric tons
+
+  
+<p align="center">
+<img width="375" height="200" alt="image" src="https://github.com/user-attachments/assets/7c0dc381-f15a-4cf4-a2fb-1d2e76e18ff4" />
+</p>
 
 # Block Diagram
 System Block Diagram
