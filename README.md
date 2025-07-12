@@ -88,12 +88,14 @@ Libraries Already Developed/Utilized
     - 41: End of no passing
     - 42: End of no passing by vehicles over 3.5 metric tons
 
+<p align="center">
 Dataset 
 <p align="center">
 <img width="375" height="200" alt="image" src="https://github.com/user-attachments/assets/7c0dc381-f15a-4cf4-a2fb-1d2e76e18ff4" />
 </p>
 
 # Block Diagram
+<p align="center">
 System Block Diagram
 
 <img width="875" height="545" alt="Screenshot 2025-05-21 164759" src="https://github.com/user-attachments/assets/f0f1a23b-1b0c-4acc-beba-cbd44d1f2107" />
