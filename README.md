@@ -37,7 +37,7 @@ Libraries Already Developed/Utilized
 | cvzone | Used for simplifying computer vision tasks and overlays |
 | scikit-learn | Used for preprocessing and model evaluation utilities |
 | TensorFlow/Keras | Deep learning framework used for model development |
-| Data Augmentation Pipeline | Enhances model robustness under varied conditions |
+
 
 **Dataset Details:**
 
@@ -101,10 +101,9 @@ System Block Diagram
 <img width="875" height="545" alt="Screenshot 2025-05-21 164759" src="https://github.com/user-attachments/assets/f0f1a23b-1b0c-4acc-beba-cbd44d1f2107" />
 
 # Code Base
-- Real-Time Video Capture and Processing Code
+
 - CNN Model Architecture and Training Code
-- Preprocessing and Augmentation Scripts
-- Inference Pipeline with Live Display of Detected Signs
+- Real-Time Video Capture and Processing Code
 
 # Technologies Used
 1. Python: Core language for data processing and model development.
