@@ -88,7 +88,7 @@ Libraries Already Developed/Utilized
     - 41: End of no passing
     - 42: End of no passing by vehicles over 3.5 metric tons
 
-  
+Dataset 
 <p align="center">
 <img width="375" height="200" alt="image" src="https://github.com/user-attachments/assets/7c0dc381-f15a-4cf4-a2fb-1d2e76e18ff4" />
 </p>
@@ -120,6 +120,7 @@ Project RTS successfully demonstrates high-performance real-time detection of tr
 - Clear overlay of detected sign labels and confidence scores on live video, enabling seamless integration into ADAS systems.
 
 # Conclusion
+<p align="justify">
 Project RTS represents a significant step toward safer and smarter transportation by enabling real-time traffic sign recognition using deep learning. The system is lightweight, scalable, and can be integrated into ADAS frameworks, contributing to accident prevention and improved traffic management. Future improvements may include deployment on embedded platforms, integration with other sensor data, and exploration of advanced detection architectures like YOLO for even faster inference.
-
+<p align="justify">
 The project showcases the power of combining computer vision with deep learning to solve critical real-world problems in the field of intelligent transportation systems.
