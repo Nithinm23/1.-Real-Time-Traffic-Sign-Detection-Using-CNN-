@@ -11,13 +11,13 @@ Project RTS implements a real-time pipeline for detecting and classifying traffi
 </p>
 
 # Table of Contents
-- [Demo](#Demo-Photos)
-- [Components](#Components)
-- [Hardware](#Hardware)
-- [Code Base](#Code-Base)
-- [Technologies Used](#Technologies-Used)
-- [Result](#Result)
-- [Conclusion](#Conclusion)
+- [Demo Photos](#demo-photos)
+- [Libraries](#libraries)
+- [Block Diagram](#block-diagram)
+- [Code Base](#code-base)
+- [Technologies Used](#technologies-used)
+- [Result](#result)
+- [Conclusion](#conclusion)
 
 ## Demo Photos
 
@@ -31,15 +31,67 @@ Libraries Already Developed/Utilized
 | Libraries | Description |
 | :---         | :---      |
 | CNN Model | Custom architecture trained for traffic sign classification |
-| Webcam | Captures live video frames for detection |
 | OpenCV | Handles video capture, image processing, and visualization |
+| NumPy | Used for numerical operations and array manipulation |
+| Pandas | Used for data handling and analysis |
+| cvzone | Used for simplifying computer vision tasks and overlays |
+| scikit-learn | Used for preprocessing and model evaluation utilities |
 | TensorFlow/Keras | Deep learning framework used for model development |
 | Data Augmentation Pipeline | Enhances model robustness under varied conditions |
+
+**Dataset Details:**
+
+- Total images: ~35,000
+- Number of classes: 42
+- Classes:
+    - 0: Speed limit (20km/h)
+    - 1: Speed limit (30km/h)
+    - 2: Speed limit (50km/h)
+    - 3: Speed limit (60km/h)
+    - 4: Speed limit (70km/h)
+    - 5: Speed limit (80km/h)
+    - 6: End of speed limit (80km/h)
+    - 7: Speed limit (100km/h)
+    - 8: Speed limit (120km/h)
+    - 9: No passing
+    - 10: No passing for vehicles over 3.5 metric tons
+    - 11: Right-of-way at the next intersection
+    - 12: Priority road
+    - 13: Yield
+    - 14: Stop
+    - 15: No vehicles
+    - 16: Vehicles over 3.5 metric tons prohibited
+    - 17: No entry
+    - 18: General caution
+    - 19: Dangerous curve to the left
+    - 20: Dangerous curve to the right
+    - 21: Double curve
+    - 22: Bumpy road
+    - 23: Slippery road
+    - 24: Road narrows on the right
+    - 25: Road work
+    - 26: Traffic signals
+    - 27: Pedestrians
+    - 28: Children crossing
+    - 29: Bicycles crossing
+    - 30: Beware of ice/snow
+    - 31: Wild animals crossing
+    - 32: End of all speed and passing limits
+    - 33: Turn right ahead
+    - 34: Turn left ahead
+    - 35: Ahead only
+    - 36: Go straight or right
+    - 37: Go straight or left
+    - 38: Keep right
+    - 39: Keep left
+    - 40: Roundabout mandatory
+    - 41: End of no passing
+    - 42: End of no passing by vehicles over 3.5 metric tons
 
 # Block Diagram
 System Block Diagram
 
-[System Block Diagram]<img width="875" height="545" alt="Screenshot 2025-05-21 164759" src="https://github.com/user-attachments/assets/f0f1a23b-1b0c-4acc-beba-cbd44d1f2107" />
+<img width="875" height="545" alt="Screenshot 2025-05-21 164759" src="https://github.com/user-attachments/assets/f0f1a23b-1b0c-4acc-beba-cbd44d1f2107" />
 
 # Code Base
 - Real-Time Video Capture and Processing Code
@@ -57,7 +109,7 @@ System Block Diagram
 # Result
 Project RTS successfully demonstrates high-performance real-time detection of traffic signs:
 
-- Achieved ~90% classification accuracy on 43 Indian and German traffic sign classes.
+- Achieved ~90% classification accuracy on 42 Indian and German traffic sign classes.
 - Processes video at near real-time speeds (~30 FPS) on standard laptops without GPU acceleration.
 - Robust to varied lighting, angles, and occlusion due to comprehensive data augmentation during training.
 - Clear overlay of detected sign labels and confidence scores on live video, enabling seamless integration into ADAS systems.
